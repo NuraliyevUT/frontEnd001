@@ -1,0 +1,285 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #e5e5e5;
+}
+
+.container {
+  width: 1120px;
+  margin: auto;
+}
+
+.header {
+  background-color: #1391ce;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1391ce;
+  padding-bottom: 98px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #25468a;
+}
+a:hover {
+  color: #fff;
+}
+.download {
+  margin-left: 32px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 9px 18px;
+  gap: 10px;
+
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.intro {
+  background-color: #1391ce;
+  width: 100%;
+}
+
+.intro__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1391ce;
+}
+
+.intro__title {
+  /* Copy Text */
+
+  width: 560px;
+  height: 108px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 108px;
+
+  color: #25468a;
+}
+
+.intro__subtitle {
+  margin: 40px 0;
+  width: 560px;
+  height: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+
+  color: #3b4a6b;
+}
+
+.intro__text {
+  /* Copy Text */
+
+  width: 500px;
+  height: 55px;
+  margin-bottom: 20px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #3b4a6b;
+}
+
+.intro__btn {
+  /* CTA Button */
+
+  /* Auto layout */
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 65px;
+  gap: 10px;
+
+  width: 263.53px;
+  height: 51px;
+
+  background: #f7ba0e;
+  border-radius: 26px;
+}
+
+.boxes {
+  width: 100%;
+  background-color: transparent;
+}
+
+.boxes__container {
+  margin-top: 176px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+}
+
+.box {
+  background-color: #1391ce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 352px;
+  height: 189px;
+  border-radius: 10px;
+}
+
+.box__text {
+  width: 260px;
+  height: 52px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+
+.reasons {
+  width: 100%;
+  background-color: transparent;
+  margin-top: 63px;
+}
+
+.reasons__title {
+  margin: auto;
+  /* Just a few reason you will love HandBrake */
+
+  width: 387px;
+  height: 88px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 121.3%;
+  /* or 44px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #1391ce;
+}
+/*  */
+hr {
+  margin: 15px auto;
+  width: 160px;
+  height: 8px;
+  background-color: #f7ba0e;
+}
+
+.reasons__presets {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-top: 96px;
+}
+
+.presets__subtitle {
+  /* Optimised for easy use */
+
+  width: 209px;
+  height: 21px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  /* or 21px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  color: #25468a;
+}
+
+.presets__title {
+  /* Built-in Device Presets */
+
+  width: 448px;
+  height: 43px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 134.3%;
+  /* identical to box height, or 43px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+
+  color: #1391ce;
+}
+
+.presets__text {
+  /* Get started with HandBrake in seconds by choosing a profile optimised for your device, or choose a universal profile for standard or high quality conversions. Simple, easy, fast. For those that want more choice, tweak many basic and advanced options to improve your encodes. */
+
+  width: 448px;
+  height: 144px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 134.3%;
+  /* or 24px */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+
+  /* Gray 2 */
+  color: #4f4f4f;
+}
